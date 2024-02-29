@@ -1,0 +1,43 @@
+.absorption {
+    box-sizing: border-box;
+    background-color: #2B98F7;
+    color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+    height: 220px;
+
+    h4 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 15px;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    &__image_box {
+        box-sizing: border-box;
+        width: 100%;
+        // background-color: yellow;
+        padding-left: 10px;
+
+        &__icon {
+            height: 100px;
+            margin-top: -70px;
+        }
+    }
+
+    &__image {
+        height: 25px;
+        margin-top: 15px;
+    }
+}

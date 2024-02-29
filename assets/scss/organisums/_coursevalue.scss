@@ -1,0 +1,89 @@
+.coursevalue_box {
+    background-color: #F1F5F8;
+    width: 100%;
+
+
+    &__innerwrapper {
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+
+        &__image {
+            height: 360px;
+        }
+
+        &__innerbox {
+            width: 70%;
+
+            &__subheader {
+
+                .subheader {
+                    box-sizing: border-box;
+                    color: $violet;
+                    display: flex;
+                    flex-direction: column;
+            
+                    h5 {
+                        font-weight: 400;
+                        font-size: 14px;
+                        opacity: 0.8;
+                        margin: 0;
+                    }
+                    
+                        &__academy {
+                            display: flex;
+                            gap: 15px;
+                            align-items: center;
+            
+                            h2 {
+                                margin: 0;
+                            }
+                    
+                            .border_width {
+                                border: 1px solid $violet;
+                                width: 5%;
+                                height: 0;
+                                opacity: 0.8;
+                            }
+                           
+                        }
+                    }
+            }
+
+            &__division {
+                display: flex;
+                flex-wrap: wrap;
+
+                &__wrap_contents {
+                    width: 33.33%;
+                    padding-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    &__image {
+                        height: 30px;
+                    }
+
+                    h4 {
+                        margin-top: 12px;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: $violet;
+                    }
+                }
+            }
+        }
+    }
+}
+@include mobile {
+
+    .coursevalue_box__innerwrapper__image {
+        display: none;
+    }
+    .coursevalue_box__innerwrapper__innerbox {
+        width: 100%;
+    }
+
+}

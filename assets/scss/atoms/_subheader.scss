@@ -1,0 +1,28 @@
+.subheader {
+// background-color: yellow;
+color: $violet;
+display: flex;
+flex-direction: column;
+
+h2 {
+    margin: 0;
+}
+
+    &__academy {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    
+        h5 {
+            font-weight: 400;
+            font-size: 14px;
+            margin: 0;
+        }
+    
+        .border_width {
+            border: 1px solid $violet;
+            width: 18%;
+            height: 0;
+        }
+    }
+}

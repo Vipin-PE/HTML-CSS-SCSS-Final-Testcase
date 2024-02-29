@@ -1,0 +1,18 @@
+.banner {
+    background-color: yellowgreen;
+    background-image: url("../images/Rectangle%204012.svg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+
+    &__content {
+        // background-color: grey;
+        width: 52%;
+        color: white;
+
+        p {
+            font-size: 14px;
+        }
+    }
+}

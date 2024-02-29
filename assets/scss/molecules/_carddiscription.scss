@@ -1,0 +1,19 @@
+.card_discription {
+    // background-color: yellowgreen;
+    width: 25%;
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        color: $violet;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    p {
+        color: $para-color;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+    }
+}

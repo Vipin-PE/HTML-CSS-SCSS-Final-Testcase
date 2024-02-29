@@ -1,0 +1,98 @@
+.addbox {
+    background-image: url("../images/Rectangle%2034624443.svg");
+    background-size: cover;
+    // padding: 4px;
+    // height: 415px;
+
+    &__gradient {
+        box-sizing: border-box;
+        background: $linear-gradient;
+        // height: 100%;
+        // padding-left: 5%;
+        display: flex;
+
+        &__image {
+            height: 390px;
+            margin-top: 25px;
+            margin-left: -85px;
+        }
+
+        &__content {
+            // background-color: goldenrod;
+            width: 65%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &__headerpara {
+                box-sizing: border-box;
+                padding-top: 25px;
+                padding-left: 5%;
+                // background-color: grey;
+                color: white;
+
+                h3 {
+                    font-size: 28px;
+                    font: 600;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 14px;
+                    margin: 0;
+                }
+            }
+
+            &__listbox {
+                // background-color: rgb(162, 150, 150);
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                justify-content: space-between;
+                padding-left: 5%;
+                width: 70%;
+                // height: 40px;
+
+                &__list {
+                    width: 45%;
+                    display: flex;
+                    gap: 15px;
+                    align-items: center;
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 400;
+
+                    .image {
+                        height: 25px;
+                    }
+                }
+            }
+
+            &__bluecontent {
+                box-sizing: border-box;
+                background-color: #2D82E5;
+                color: white;
+                font-size: 16px;
+                font-weight: 600;
+                padding-left: 5%;
+                display: flex;
+                align-items: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                // height: 68px;
+            }
+        }
+    }
+}
+
+@include mobile {
+    .addbox__gradient__image {
+        display: none;
+    }
+    .addbox__gradient__content {
+        width: 100%;
+    }
+    .addbox__gradient__content__listbox {
+        width: 100%;
+    }
+}

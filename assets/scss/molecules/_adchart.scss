@@ -1,0 +1,43 @@
+.adchart {
+    // background-color: red;
+    background-image: url("../images/Mask%20group.svg");
+    background-size: cover;
+    background-position: center;
+    height: 527px;
+
+    .subheader {
+        box-sizing: border-box;
+        // background-color: yellow;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        // padding-left: 30px;
+
+        h5 {
+            font-weight: 400;
+            font-size: 14px;
+            opacity: 0.8;
+            margin: 0;
+        }
+        
+            &__academy {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+
+                h2 {
+                    margin: 0;
+                }
+        
+                .border_width {
+                    border: 1px solid white;
+                    width: 18%;
+                    height: 0;
+                    opacity: 0.8;
+                }
+               
+            }
+        }
+        
+}

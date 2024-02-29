@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "./base/_mixins.scss";
+@import "./base/_spacer.scss";
+@import "./base/_colors.scss";
+
+@import "./atoms/_button.scss";
+@import "./atoms/_input.scss";
+@import "./atoms/_select.scss";
+@import "./atoms/_phonenumber.scss";
+@import "./atoms/_textarea.scss";
+@import "./atoms/_socialicon.scss";
+@import "./atoms/_navitem.scss";
+@import "./atoms/_subheader.scss";
+
+@import "./molecules/_form.scss";
+@import "./molecules/_banner.scss";
+@import "./molecules/_trainingsteps.scss";
+@import "./molecules/_absorptionstage.scss";
+@import "./molecules/_carddiscription.scss";
+@import "./molecules/_adchart.scss";
+@import "./molecules/_companybranches.scss";
+@import "./molecules/_subscribebar.scss";
+
+
+@import "./organisums/_footer.scss";
+@import "./organisums/_header.scss";
+@import "./organisums/_companyadd.scss";
+@import "./organisums/_coursevalue.scss";
+@import "./organisums/_bluecard.scss";
+@import "./organisums/_employee.scss";
+@import "./organisums/_cardgrid.scss";
+
+@import "./_index.scss";
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+* {
+    font-family: "Poppins", sans-serif;
+}
