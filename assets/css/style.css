@@ -148,8 +148,13 @@
     width: calc(50% - 16px);
     margin: 8px; }
 
+@media (max-width: 620px) {
+  .phonenumber_box__code {
+    width: 75px; }
+
+  .phonenumber_box__phonenumber {
+    height: 45px; } }
 .banner {
-  background-color: yellowgreen;
   background-image: url("../images/Rectangle%204012.svg");
   background-size: cover;
   height: 300px;
@@ -160,6 +165,9 @@
     color: white; }
     .banner__content p {
       font-size: 14px; }
+    @media (max-width: 620px) {
+      .banner__content {
+        width: 100%; } }
 
 .step_box {
   width: 200px; }
@@ -327,8 +335,25 @@
         align-items: center; }
 
 @media (max-width: 620px) {
-  .subscribebar p {
-    display: none; } }
+  .subscribebar {
+    justify-content: space-evenly; }
+    .subscribebar__innerwraper {
+      width: 40%;
+      padding-left: 0; }
+      .subscribebar__innerwraper h3 {
+        font-size: 16px; }
+    .subscribebar__innerwraper_right {
+      padding-right: 0; }
+      .subscribebar__innerwraper_right__inputbox {
+        width: 400px; }
+        .subscribebar__innerwraper_right__inputbox__input {
+          width: 80%; }
+        .subscribebar__innerwraper_right__inputbox__button {
+          width: 15%; }
+      .subscribebar__innerwraper_right__button {
+        width: 10%; }
+    .subscribebar p {
+      display: none; } }
 .footer {
   position: relative; }
   .footer__section_1 {
@@ -395,6 +420,7 @@
       border-radius: 50%;
       background-color: #C1C1C1; }
     .nav_top__left_bar h4 {
+      margin: 0;
       font-size: 16px;
       font-weight: 300;
       color: #666666; }
@@ -436,10 +462,7 @@
 
 @media (max-width: 620px) {
   .header__nav_list {
-    gap: 3px; }
-
-  .header {
-    height: 100px; } }
+    gap: 3px; } }
 .addbox {
   background-image: url("../images/Rectangle%2034624443.svg");
   background-size: cover; }
@@ -508,7 +531,9 @@
     width: 100%; } }
 .coursevalue_box {
   background-color: #F1F5F8;
-  width: 100%; }
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px; }
   .coursevalue_box__innerwrapper {
     box-sizing: border-box;
     width: 100%;
@@ -734,10 +759,13 @@
           margin-left: 16px; }
 
 .cardgrid {
-  background-color: aqua;
+  background-color: white;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px; }
+  gap: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 90%; }
   .cardgrid .card_discription {
     width: calc(25% - 30px); }
     .cardgrid .card_discription h4 {
@@ -750,8 +778,17 @@
       color: #666666;
       font-size: 14px;
       font-weight: 400;
-      margin: 0; }
+      margin: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+      @media (max-width: 620px) {
+        .cardgrid .card_discription p {
+          display: none; } }
 
+@media (max-width: 620px) {
+  .cardgrid .card_discription {
+    width: calc(50% - 30px); } }
 .content_padding {
   padding-left: 4%;
   padding-right: 4%; }
@@ -772,11 +809,9 @@
   flex-wrap: wrap; }
 
 .rowbox {
-  background-color: red;
   position: relative;
   height: 100px; }
   .rowbox__wrapper {
-    background-color: blue;
     width: 100%;
     position: absolute;
     top: -100px;
@@ -799,6 +834,20 @@
     color: #11385b; }
   .question_content p {
     color: #afafaf; }
+
+.adchart {
+  position: relative; }
+  .adchart .cardgrid {
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+    z-index: 2; }
+
+.coursevalue_box {
+  padding-top: 200px; }
+
+.mob-only_img {
+  height: 30px; }
 
 @media (max-width: 620px) {
   .divider {
@@ -824,5 +873,15 @@ body {
 
 * {
   font-family: "Poppins", sans-serif; }
+
+.mobile-only {
+  display: none; }
+  @media (max-width: 620px) {
+    .mobile-only {
+      display: block; } }
+
+@media (max-width: 620px) {
+  .desktop-only {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

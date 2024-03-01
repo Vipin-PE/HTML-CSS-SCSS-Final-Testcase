@@ -73,8 +73,37 @@
 
 @include mobile {
     .subscribebar {
+        justify-content: space-evenly;
+        &__innerwraper {
+            width: 40%;
+            padding-left: 0;
+            h3 {
+                font-size: 16px;
+            }
+        }
+
+        &__innerwraper_right {
+            padding-right: 0;
+
+            &__inputbox {
+                width: 400px;
+        
+                &__input {
+                    width: 80%;
+                }
+        
+                &__button {
+                    width: 15%;
+                }
+            }
+
+            &__button {
+                width: 10%;
+            }
+        }
         p {
             display: none;
         }
+
     }
 }

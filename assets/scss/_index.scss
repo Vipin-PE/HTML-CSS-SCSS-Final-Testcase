@@ -20,12 +20,10 @@
 }
 
 .rowbox {
-    background-color: red;
   position: relative;
     // margin-top: -25px;
     height: 100px;
     &__wrapper {
-        background-color: blue;
         width: 100%;
         position: absolute;
         top: -100px;
@@ -57,6 +55,22 @@
     p {
         color: #afafaf;
     }
+}
+.adchart {
+    position: relative;
+    .cardgrid {
+        position: absolute;
+        bottom: 0;
+        transform: translateY(50%);
+        z-index: 2;
+    }
+}
+.coursevalue_box {
+    padding-top: 200px;
+}
+
+.mob-only_img {
+    height: 30px;
 }
 
 

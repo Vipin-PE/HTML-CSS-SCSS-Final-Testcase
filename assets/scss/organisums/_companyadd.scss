@@ -1,14 +1,10 @@
 .addbox {
     background-image: url("../images/Rectangle%2034624443.svg");
     background-size: cover;
-    // padding: 4px;
-    // height: 415px;
 
     &__gradient {
         box-sizing: border-box;
         background: $linear-gradient;
-        // height: 100%;
-        // padding-left: 5%;
         display: flex;
 
         &__image {
@@ -18,7 +14,6 @@
         }
 
         &__content {
-            // background-color: goldenrod;
             width: 65%;
             display: flex;
             flex-direction: column;
@@ -28,7 +23,6 @@
                 box-sizing: border-box;
                 padding-top: 25px;
                 padding-left: 5%;
-                // background-color: grey;
                 color: white;
 
                 h3 {
@@ -44,14 +38,12 @@
             }
 
             &__listbox {
-                // background-color: rgb(162, 150, 150);
                 display: flex;
                 flex-wrap: wrap;
                 gap: 40px;
                 justify-content: space-between;
                 padding-left: 5%;
                 width: 70%;
-                // height: 40px;
 
                 &__list {
                     width: 45%;
@@ -79,7 +71,6 @@
                 align-items: center;
                 padding-top: 20px;
                 padding-bottom: 20px;
-                // height: 68px;
             }
         }
     }

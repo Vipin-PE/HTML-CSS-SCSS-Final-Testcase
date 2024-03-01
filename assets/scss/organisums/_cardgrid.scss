@@ -1,11 +1,12 @@
 .cardgrid {
-    background-color: aqua;
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    // height: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 90%;
     .card_discription {
-        // background-color: yellowgreen;
         width: calc(25% - 30px);
     
         h4 {
@@ -21,6 +22,22 @@
             font-size: 14px;
             font-weight: 400;
             margin: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            @include mobile {
+                display: none;
+            }
         }
     }
+}
+
+@include mobile {
+    .cardgrid {
+
+        .card_discription {
+            width: calc(50% - 30px);
+        }
+    }
+    
 }

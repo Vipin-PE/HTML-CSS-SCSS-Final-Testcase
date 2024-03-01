@@ -1,6 +1,5 @@
 .nav_top {
     border-bottom: 2px solid #F5F5F5;
-    // height: 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +20,7 @@
         }
 
         h4 {
+            margin: 0;
             font-size: 16px;
             font-weight: 300;
             color: #666666;
@@ -78,13 +78,6 @@
 
     .header__nav_list {
         gap: 3px;
-    }
-
-    .header {
-        height: 100px;
-        // a {
-        //     font-size: 8px;
-        // }
     }
 
 }

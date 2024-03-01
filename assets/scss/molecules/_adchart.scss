@@ -1,5 +1,4 @@
 .adchart {
-    // background-color: red;
     background-image: url("../images/Mask%20group.svg");
     background-size: cover;
     background-position: center;
@@ -7,12 +6,10 @@
 
     .subheader {
         box-sizing: border-box;
-        // background-color: yellow;
         color: white;
         display: flex;
         flex-direction: column;
         padding-top: 40px;
-        // padding-left: 30px;
 
         h5 {
             font-weight: 400;

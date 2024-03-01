@@ -13,7 +13,6 @@
         margin-top: 20px !important;
         &__subheader {
             box-sizing: border-box;
-            // background-color: yellow;
             width: 23%;
             color: white;
             padding-top: 5px;
@@ -38,7 +37,6 @@
             padding-top: 15px;
             display: flex;
             align-items: center;
-            // background-color: grey;
             color: white;
             opacity: 0.8;
             font-size: 14px;
@@ -53,14 +51,11 @@
         &__backgroundimage {
             background-image: url("../images/image%2022.svg");
             background-size: cover;
-            // background-color: red;
-            // height: 100%;
             width: 25%;
             height: 500px;
         }
 
         &__wrapboxes {
-            // background: yellow;
             height: 100%;
             width: 75%;
             display: flex;
@@ -77,7 +72,6 @@
                 }
 
                 &__data_img {
-                    // background-color: salmon;
                     padding-bottom: $padding-three;
                     display: flex;
                     justify-content: space-between;
@@ -92,18 +86,14 @@
                 }
 
                 .batch_wraper {
-                    // background-color: burlywood;
-                    // height: 30px;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
 
                     &__firstwrap {
-                        // background-color: cadetblue;
                         display: flex;
                         justify-content: space-between;
                         width: 45%;
-                        // height: 30px;
                         &__batchbox {
 
                             p {
@@ -140,8 +130,6 @@
             }
 
             &__bluebatch {
-                // background: rgb(67, 59, 59);
-                // width: 100%;
                 margin: 15px;
                 display: flex;
                 gap: 15px;
@@ -149,7 +137,6 @@
 
                 &__engineerwraper {
                     box-sizing: border-box;
-                    // margin: 10px;
                     background-color: #072846;
                     width: calc(50% - 15px);
                     padding: 15px;
@@ -157,7 +144,6 @@
                     justify-content: space-between;
 
                     .columnbox {
-                        // background-color: rgb(48, 43, 43);
 
                         p {
                             margin-bottom: 0;

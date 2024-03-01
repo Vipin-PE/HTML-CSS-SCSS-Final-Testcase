@@ -21,3 +21,12 @@
         margin: 8px;
     }
 }
+
+@include mobile {
+    .phonenumber_box__code {
+        width: 75px;
+    }
+    .phonenumber_box__phonenumber {
+        height: 45px;
+    }
+}
